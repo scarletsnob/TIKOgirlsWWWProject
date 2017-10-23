@@ -1,0 +1,7 @@
+Kierros 1, Arvosana 5 
+Kierros 2, Arvosana 1 
+Kierros 3, Arvosana 1 
+Kierros 4, Arvosana 1 
+Kierros 5, Arvosana 3 
+  
+Keskiarvo: 2,2
