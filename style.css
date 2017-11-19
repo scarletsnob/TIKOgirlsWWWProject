@@ -82,3 +82,17 @@ nav li {
 	padding: 10px 1em; margin: 3px 0 0; text-align: center; float: left;}
 nav li a {
 	text-decoration: none; font-size: 1.2em; }
+
+	/* footer */
+
+footer .footer-third {
+		width: 100%;
+}
+@media only screen and (min-width: 769px) {
+	footer .footer-third {
+		width: 33%;
+		display: inline-block;
+		padding: 10px;
+		text-align: left;
+	}
+}
