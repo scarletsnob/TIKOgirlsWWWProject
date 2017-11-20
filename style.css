@@ -1,98 +1,230 @@
 /* Reset CSS via Eric Meyer (public domain)
-http://meyerweb.com/eric/tools/css/reset/
+http://meyerweb.com/eric/tools/css/reset/ 
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+	
+	margin: 0;
+	 padding: 0;
+	 border: 0;
+	 font-size: 100%;
+	 font: inherit;
+	 vertical-align: baseline;
+	 
+}
+	
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	 display: block;
+	 
+}
+	
 body {
-	line-height: 1; }
+	 line-height: 1;
+	 
+}
+	
 ol, ul {
-	list-style: none; }
+	 list-style: none;
+	 
+}
+	
 blockquote, q {
-	quotes: none; }
+	 quotes: none;
+	 
+}
+	
 blockquote:before, blockquote:after, q:before, q:after {
-	content: ''; content: none; }
+	 content: '';
+	 content: none;
+	 
+}
+	
 table {
-	border-collapse: collapse; border-spacing: 0; }
+	 border-collapse: collapse;
+	 border-spacing: 0;
+	 
+}
+	
 
 *, *:before, *:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	 box-sizing: border-box;
+	
+
 }
+	
 
 /* typography */
 
+h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', "Times New Roman", sans-serif;
+}
+
+p, li {
+	font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
 h1 {
-	font-size: 2em; }
+	 font-size: 2rem;
+	 
+}
+	
 h2 {
-	font-size: 1.5em; }
+	 font-size: 1.5rem;
+	 
+}
+	
 h1, h2 {
-	font-weight: bold; margin: 5px 0; }
+	 font-weight: bold;
+	 margin: 5px 0;
+	 
+}
+	
 p {
-	font-size: 1em; margin: 15px 0; line-height: 1.3em; }
+	 font-size: 1rem;
+	 line-height: 140%;
+	 margin: 15px 0;
+	 
+}
+
+aside p {
+	 hyphens: auto;
+	 
+}
+	
 ul {
-	padding-left: 10px; margin: 10px 0; list-style-type: disc; }
+	 padding-left: 10px;
+	 margin: 10px 0;
+	 list-style-type: disc;
+	 
+}
+	
 li {
-	margin-left: 10px; padding-left: 10px;}
+	 margin-left: 10px;
+	 padding-left: 10px;
+	 
+}
+	
 
 /* borders and whitespace */
 
-header, nav, article, aside, footer {
-	border: 1px solid #111; padding: 10px 1em; margin: 0 5% 10px; }
+header, article, aside, footer {
+	 border: 1px solid #111;
+	 padding: 10px 1em;
+	 margin: 0 5% 10px;
+	 
+	}
+	
 header {
-	margin-top: 10px; }
+	 margin-top: 10px;
+	 
+	}
+	
 
 /* columns */
 
 @media only screen and (min-width: 36em) {
+	
 	article {
-		width: 67%; float: left; margin-right: 0; }
+	 width: 67%;
+	 float: left;
+	 margin-right: 0;
+	 
+	}
+	 
 	aside {
-		width: 21%; float: right; margin-left: 0; }
+	 width: 21%;
+	 float: right;
+	 margin-left: 0;
+	 
+	}
+	 
 	footer {
-		clear: both; }
+	 clear: both;
+	 
+	}
+	
+
 }
 
+.clearfix:after { 
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+	
+}
+	
+
 #fullpage {
-	max-width: 63em; margin: auto; }
+	 max-width: 63em;
+	 margin: auto;
+	 
+}
+	
 
 /* image */
 
 @media only screen and (min-width: 28em) {
+	
 	article img {
-		float: right; padding-left: 3%; padding-bottom: 10px; width: 50%; }
-}
+	 padding-left: 3%;
+	 padding-bottom: 10px;
+	 
+	}
+	
 
 article img {
-	max-width: 100%; }
+	 max-width: 100%;
+	 
+}
+
+figure {
+	float: right;
+	width: 50%;
+}
+
+figcaption {
+    display: block;
+} 
+	
 
 /* header */
 
+header {	
+	 
+}
+	
 
 /* navigation */
 
-nav {
-	/*width:100%;*/ display: block; clear: both;}
 nav ul {
-	list-style-type: none; padding: 0; margin: 25px 00;}
+	 list-style-type: none;
+	 padding: 0;
+	 margin: 25px 00;
+	
+}
+	
 nav li {
-	padding: 10px 1em; margin: 3px 0 0; text-align: center; float: left;}
+	 padding: 10px 1em;
+	 margin: 3px 0 0;
+	 text-align: center;
+	 float: left;
+	
+}
+
+.clear {
+	clear: both;
+	
+}
+	 
 nav li a {
-	text-decoration: none; font-size: 1.2em; }
-
-	/* footer */
-
-footer .footer-third {
-		width: 100%;
+	 text-decoration: none;
+	 font-size: 1.2em;
+	 
 }
-@media only screen and (min-width: 769px) {
-	footer .footer-third {
-		width: 33%;
-		display: inline-block;
-		padding: 10px;
-		text-align: left;
-	}
-}
+
+	
