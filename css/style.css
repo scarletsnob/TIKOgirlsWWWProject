@@ -21,7 +21,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	
 body {
 	 line-height: 1;
-	 
+	 BGCOLOR="rgb(202,235,226);
 }
 	
 ol, ul {
@@ -79,7 +79,7 @@ h2 {
 h1, h2 {
 	 font-weight: bold;
 	 margin: 5px 0;
-	 
+	 color: red;
 }
 	
 p {
