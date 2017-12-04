@@ -60,10 +60,12 @@ table {
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Raleway', "Times New Roman", sans-serif;
+
 }
 
 p, li {
 	font-family: 'Open Sans', 'Arial', sans-serif;
+	color:darkgray;
 }
 
 h1 {
@@ -109,7 +111,7 @@ li {
 
 /* background image */
 #fullpage {
-	background-color:white;
+	
 
 }
 body {
@@ -121,9 +123,11 @@ body {
 /* borders and whitespace */
 
 header, article, aside, footer {
-	 border: 1px solid #111;
+	
 	 padding: 10px 1em;
 	 margin: 0 5% 10px;
+	 background-color: rgba(255,255,255,1);
+
 
 	}
 
