@@ -178,6 +178,12 @@ header {
 
 /* image */
 
+nav .language {
+	float: right;
+	clear: right;
+	border: thin solid lightgray; 
+}
+
 @media only screen and (min-width: 28em) {
 
 	article img {
