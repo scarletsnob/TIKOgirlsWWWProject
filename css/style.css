@@ -160,6 +160,11 @@ header {
 
 	}
 
+header img {
+	max-width: 100%;
+}
+
+
 
 /* columns */
 
