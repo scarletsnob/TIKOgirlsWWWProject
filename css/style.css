@@ -96,6 +96,30 @@ aside p {
 
 }
 
+a  {
+	color:white;
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:rgb(148,208,191);
+}
+
+a:active {
+    text-decoration: underline;
+    color:rgb(148,208,191);
+}
+
 ul {
 	 padding-left: 10px;
 	 margin: 10px 0;
